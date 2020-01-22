@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
+# Holo Alfa Jekyll theme [![Build Status](https://travis-ci.org/steinvc/holo-alfa.svg?branch=master)](https://travis-ci.org/steinvc/holo-alfa) #
 
-You can use the [editor on GitHub](https://github.com/tom-butler/tom-butler.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+>This project is no longer maintained. It will probably still work fine though.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Screenshot](http://i.imgur.com/Gi46aag.jpg)
 
-### Markdown
+Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. Created for free and fun by Stijn. Also works great as a base to build your own theme on.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+See it in action: http://steinvc.github.io/holo-alfa/.
 
-```markdown
-Syntax highlighted code block
+## Feature highlights ##
 
-# Header 1
-## Header 2
-### Header 3
+* Mobile first design
+* Extensive content styling
+* Responsive video's (using [FitVids.JS](http://fitvidsjs.com/))
+* Support for authors and guest authors
+* Read time on articles
+* Disqus comments
+* Language localization
+* Automatic [og metadata](http://ogp.me/)
+* Automatic archive page (without plugins)
+* Automatic sitemap en RSS feed
+* Contact page (with working email form)
+* A lot of (optional) customization options (all in `_config.yml`)
 
-- Bulleted
-- List
+And much more.
 
-1. Numbered
-2. List
+## Getting started ##
 
-**Bold** and _Italic_ and `Code` text
+If you're new to Jekyll, check out http://jekyllrb.com/ and read up on Jekyll. It's worth it.
 
-[Link](url) and ![Image](src)
-```
+* [Another great resource to learn about Jekyll](http://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
+* [Github's guide to using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages/)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Installing ##
 
-### Jekyll Themes
+As simple as forking the repository, and then clone it so you can edit the files locally.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tom-butler/tom-butler.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Configuration ###
 
-### Support or Contact
+Edit `_config.yml`!
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You can find `_config.yml` in your site's root directory. This configuration file contains some necessary settings and some optional customization settings. **All settings are explained in `_config.yml` itself.** Also make sure to use the developement configuration file (`_config_dev.yml`) for running your site locally. This way you don't get your URLs mixed up.
+
+There are some customizations that can't be done in `_config.yml`. These include:
+
+* Editing the About, Contact and Archive page.
+* Adding or removing pages from the navigation. This can be done in `\_includes\navigation.html`.
+* The "thanks" page after a message has been send through the contact page: `thanks.md`
+* The gradient on cover images: `\_includes\gradient.css` (this is explained in `_config.yml`).
+
+Also make sure to replace the placeholder favicons and the `\img\og-image.jpg` with your own.
+
+### Start the Jekyll server ###
+
+You can learn how to do this by reading [this](https://help.github.com/articles/using-jekyll-with-pages/).
+
+> Tip: to run your site locally with `_config_dev.yml` as configuration file, use this command at the root of your site `bundle exec jekyll serve --config _config_dev.yml`.
+
+When everything is OK, your site should now be available at `http://localhost:4000`.
+
+That's it.
+
+---
+
+[MIT license](http://opensource.org/licenses/MIT)

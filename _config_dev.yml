@@ -1,7 +1,7 @@
 # The name of your website.
-name: tom-butler.blog
+name: tom butler blog
 
-title: tom-butler.blog
+title: tom butler blog
 
 description:
   # Description of your site. This will show up in google.
@@ -14,13 +14,13 @@ author:
   name: Tom Butler
 
   # Necessary for contact page
-  email: teejay97+blog@gmail.com
+  email: your@email.com # Change this!
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
   info:
 
-url: http://tom-butler.github.io
+url: http://localhost:4000
 baseurl: ""
 
 # language attribute in <html> element.
