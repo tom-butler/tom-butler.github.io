@@ -14,13 +14,13 @@ author:
   name: Tom Butler
 
   # Necessary for contact page
-  email: teejay97+blog@gmail.com
+  email: tom@binarycrow.dev
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
   info:
 
-url: http://tom-butler.github.io
+url: https://blog.binarycrow.dev
 baseurl: ""
 
 # language attribute in <html> element.
